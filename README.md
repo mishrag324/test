@@ -5,10 +5,10 @@ Requirements/Dependencies
   CMake (sudo snap install cmake --classic)
 
 cd
-git clone https://github.com/microsoft/SEAL.git
-cmake -S . -B build
-cmake --build build
-sudo cmake --install build
+git clone https://github.com/microsoft/SEAL.git <br />
+cmake -S . -B build <br />
+cmake --build build <br />
+sudo cmake --install build <br />
 
 ***Run SealDemo files***
 
