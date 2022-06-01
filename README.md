@@ -1,6 +1,5 @@
 # Installation of SEAL Library 
 
-### Baba was here !!!!
 ## Requirements/Dependencies 
 clang++ <br />
   ```sudo apt update && sudo apt install clang``` <br />
