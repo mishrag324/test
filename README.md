@@ -5,12 +5,12 @@
   CMake (sudo snap install cmake --classic)<br />
 
 ## Install seal library <br />
-'''
+```
 git clone https://github.com/microsoft/SEAL.git <br />
 cmake -S . -B build <br />
 cmake --build build <br />
 sudo cmake --install build <br />
-'''
+```
 
 # Run SealDemo files <br />
 
