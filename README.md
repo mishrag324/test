@@ -29,25 +29,25 @@ Set the name and email that will be attached to your commits and tags. <br />
 git config --global user.name <user name> 
 git config --global user.email <email id> 
 ```
-Enable some colorization of Git output. 
+Enable some colorization of Git output. <br />
 ```git config --global color.ui auto ```
 
 ## Git branch <br />
 Check the branch <br />
-```git branch```
+```git branch``` <br />
 To change the branch <br />
-```git checkout -b <branch name> ``
+```git checkout -b <branch name> `` <br />
 or <br />
-```git switch -c <new branch> ```
+```git switch -c <new branch> ```<br />
 To delete the branch
-```git checkout -D <branch name> ```
+```git checkout -D <branch name> ```<br />
 
 ##Update your files then do the following <br />
 Check for changes <br />
-```git status ```
+```git status ```<br />
 If changed, add changes to staging area <br />
-```git add --all or git add <file name> ```
+```git add --all or git add <file name> ```<br />
 Commit the changes made in staging area <br />
-```git commit -m "description" ```
+```git commit -m "description" ```<br />
 Syncronize staging and git remote repository (use token as password) <br />
-```git push origin <branch name> ```
+```git push origin <branch name> ```<br />
