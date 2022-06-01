@@ -1,9 +1,9 @@
 # Installation of SEAL Library 
 ## Requirements/Dependencies 
 clang++ <br />
-  ```sudo apt update && sudo apt install clang```
+  ```sudo apt update && sudo apt install clang``` <br />
  GNU G++ <br />
- ```sudo apt update && sudo apt install build-essential```
+ ```sudo apt update && sudo apt install build-essential``` <br />
  CMake <br />
   ```sudo snap install cmake --classic)```
 ## Install seal library
@@ -14,20 +14,22 @@ cmake --build build
 sudo cmake --install build
 ```
 
-# Run SealDemo files <br />
+# Run SealDemo files 
 
-## Download/Clone Source repository from git <br />
-```
-git clone <git repository url>
+## Download/Clone Source repository and initialize from git 
+
+Clone <br/>
+```git clone <git repository url>``` <br/>
 Initializing git in current directory <br />
-git init <br />
+```git init ```<br />
+
+## Git configuration 
+### Set the name and email that will be attached to your commits and tags. <br />
 ```
-## Git configuration <br />
-### Set the name that will be attached to your commits and tags. <br />
-```git config --global user.name <user name> ```
-### Set the e-mail address that will be attached to your commits and tags.
-```git config --global user.email <email id> ```
-### Enable some colorization of Git output. <br />
+git config --global user.name <user name> 
+git config --global user.email <email id> 
+```
+### Enable some colorization of Git output. 
 ```git config --global color.ui auto ```
 
 ## Git branch <br />
