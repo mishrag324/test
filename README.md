@@ -24,30 +24,30 @@ Initializing git in current directory <br />
 ```git init ```<br />
 
 ## Git configuration 
-### Set the name and email that will be attached to your commits and tags. <br />
+Set the name and email that will be attached to your commits and tags. <br />
 ```
 git config --global user.name <user name> 
 git config --global user.email <email id> 
 ```
-### Enable some colorization of Git output. 
+Enable some colorization of Git output. 
 ```git config --global color.ui auto ```
 
 ## Git branch <br />
-### Check the branch <br />
+Check the branch <br />
 ```git branch```
-### To change the branch <br />
+To change the branch <br />
 ```git checkout -b <branch name> ``
 or <br />
 ```git switch -c <new branch> ```
-### To delete the branch
+To delete the branch
 ```git checkout -D <branch name> ```
 
 ##Update your files then do the following <br />
-###Check for changes <br />
+Check for changes <br />
 ```git status ```
-###If changed, add changes to staging area <br />
+If changed, add changes to staging area <br />
 ```git add --all or git add <file name> ```
-###Commit the changes made in staging area <br />
+Commit the changes made in staging area <br />
 ```git commit -m "description" ```
-###Syncronize staging and git remote repository (use token as password) <br />
+Syncronize staging and git remote repository (use token as password) <br />
 ```git push origin <branch name> ```
