@@ -43,3 +43,4 @@ Commit the changes made in staging area
   git commit -m "description"
 Syncronize staging and git remote repository (use token as password)
   git push origin <branch name>
+  
