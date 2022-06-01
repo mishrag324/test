@@ -1,11 +1,12 @@
-# Installation of SEAL Library <br />
-## Requirements/Dependencies <br />
-```
-  clang++ (sudo apt update && sudo apt install clang)
-  GNU G++ (sudo apt update && sudo apt install build-essential)
-  CMake (sudo snap install cmake --classic)
-```
-## Install seal library <br />
+# Installation of SEAL Library 
+## Requirements/Dependencies 
+clang++ <br />
+  ```sudo apt update && sudo apt install clang``
+ GNU G++ <br />
+  sudo apt update && sudo apt install build-essential
+ CMake <br />
+  ```sudo snap install cmake --classic)```
+## Install seal library
 ```
 git clone https://github.com/microsoft/SEAL.git
 cmake -S . -B build
