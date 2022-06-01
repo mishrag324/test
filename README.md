@@ -12,7 +12,7 @@ sudo cmake --install build <br />
 
 ***Run SealDemo files*** <br />
 
-Download/Clone Source repository from git <br />
+#Download/Clone Source repository from git <br />
   git clone <git repository url>
 Initializing git in current directory <br />
   git init <br />
