@@ -1,9 +1,9 @@
 # Installation of SEAL Library 
 ## Requirements/Dependencies 
 clang++ <br />
-  ```sudo apt update && sudo apt install clang``
+  ```sudo apt update && sudo apt install clang```
  GNU G++ <br />
-  sudo apt update && sudo apt install build-essential
+ ```sudo apt update && sudo apt install build-essential```
  CMake <br />
   ```sudo snap install cmake --classic)```
 ## Install seal library
