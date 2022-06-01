@@ -12,8 +12,6 @@ using namespace seal;
 
 size_t row_size =3;
 
-//Hello git
-// pradeep
 int main()
 {            
 
