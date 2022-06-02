@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sealexamples.dir/sealdemo.cpp.o"
+  "CMakeFiles/sealexamples.dir/sealdemo.cpp.o.d"
   "bin/sealexamples"
   "bin/sealexamples.pdb"
 )
